@@ -21,7 +21,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
 
-        for (int i=0; i < n+1; i++) {
+        for (int i=1; i < n+1; i++) {
             if (i % sumaCifara(i) == 0)
                 System.out.println("" + i + " ");
 
